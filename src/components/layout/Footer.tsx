@@ -89,8 +89,16 @@ export default function Footer() {
 
         <div className="mt-8 pt-8 border-t border-gray-200 text-center">
           <p className="text-sm text-gray-500">
-            &copy; {new Date().getFullYear()} Zalo Growth Utilities. Không liên
-            kết với VNG Corporation.
+            &copy; {new Date().getFullYear()}{" "}
+            <a
+              href="https://parallax.kr"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-[#0068FF] transition-colors"
+            >
+              Parallax AI, LLC
+            </a>
+            . Không liên kết với VNG Corporation.
           </p>
         </div>
       </div>
